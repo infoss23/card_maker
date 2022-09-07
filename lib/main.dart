@@ -1,3 +1,4 @@
+import 'package:card_maker/view/preview_area.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,9 +33,9 @@ class MainPage extends StatelessWidget {
                 color: Colors.black,
               ),
             ),
-            Expanded(
-              flex: 5,
-              child: Container(),
+            const Expanded(
+              flex: 2,
+              child: PreviewArea(),
             )
           ]),
         ));
